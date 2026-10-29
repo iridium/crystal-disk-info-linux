@@ -1,0 +1,15 @@
+# podman build (./build.sh)
+/build/
+/dist/
+/downloads/
+/upstream/
+
+# makepkg
+/src/
+/pkg/
+/*.zip
+/*.pkg.tar.*
+/*.log
+
+# local tooling
+/.mcp.json

@@ -1,0 +1,13 @@
+# cdi-probe is the only part that reads disks; give it just the capabilities
+# for SG_IO / NVMe admin passthrough so the GUI never needs root.
+_caps() {
+	setcap cap_sys_rawio,cap_sys_admin,cap_dac_read_search+ep /usr/libexec/crystaldiskinfo/cdi-probe
+}
+
+post_install() {
+	_caps
+}
+
+post_upgrade() {
+	_caps
+}

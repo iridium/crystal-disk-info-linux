@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=CrystalDiskInfo
+GenericName=Disk Health Monitor
+Comment=S.M.A.R.T. health, temperature and wear of your drives
+Exec=crystaldiskinfo
+Icon=crystaldiskinfo
+Categories=System;Monitor;Utility;Qt;
+Keywords=smart;ssd;nvme;hdd;disk;health;
